@@ -24,19 +24,22 @@
             android:id="@+id/btn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rzut za 1" />
+            android:text="Rzut za 1"
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rzut za 2" />
+            android:text="Rzut za 2"
+            android:textColor="@color/black"/>
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rzut za 3" />
+            android:text="Rzut za 3"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
