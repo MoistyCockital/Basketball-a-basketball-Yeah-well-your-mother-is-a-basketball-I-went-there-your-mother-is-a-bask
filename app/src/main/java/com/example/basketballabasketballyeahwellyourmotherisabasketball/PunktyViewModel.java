@@ -4,7 +4,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
 public class PunktyViewModel extends ViewModel {
-    private MutableLiveData<Integer> punkty;
+    private MutableLiveData<Integer> punkty = new MutableLiveData<>();
 
     public MutableLiveData<Integer> getPunkty() {
         if(punkty == null){
@@ -12,6 +12,10 @@ public class PunktyViewModel extends ViewModel {
             punkty.setValue(0);
         }
         return punkty;
+    }
+
+    public int getP(){
+        return punkty.getValue();
     }
 
     public void setPunkty(int punkty) {
